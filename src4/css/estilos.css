@@ -1,0 +1,46 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    color: #fefefe;
+    font-family: 'Ubuntu';
+
+}
+
+h2,
+h4 {
+    color: cornflowerblue;
+
+}
+
+h3 {
+    padding: 10%;
+    color: #d58cfc;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-lateral ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+    transform: scale(1.2);
+}
